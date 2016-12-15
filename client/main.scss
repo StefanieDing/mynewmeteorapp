@@ -1,5 +1,12 @@
 @import "{poetic:materialize-scss}/sass/components/_color.scss";
-$primary-color: color("green", "darken-3");
+$primary-color: color("light-green", "darken-1");
 @import "{poetic:materialize-scss}/sass/materialize.scss";
 
 @import "./stylesheets/_stickyfooter.scss";
+@import "./stylesheets/_loading.scss";
+@import "./stylesheets/_navbar.scss";
+
+.full-w{
+  width: 100%;
+}
+
