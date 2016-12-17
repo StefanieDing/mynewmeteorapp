@@ -1,8 +1,8 @@
-Template.masterLayout.rendered = function () {
+Template.homepageLayout.rendered = function () {
   $(".button-collapse").sideNav();
 };
 
-Template.masterLayout.events({
+Template.homepageLayout.events({
     "click ul#mobile-nav.side-nav li a": function(event){
       $(".button-collapse").sideNav("hide");
     }
